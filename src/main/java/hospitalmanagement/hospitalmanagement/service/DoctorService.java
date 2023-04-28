@@ -9,4 +9,5 @@ public interface DoctorService {
   public String addNewDoctor(Doctor doctor);
   public Doctor updateDoctor(Doctor doctor , int id);
   public void deleteDoctor(int id);
+  public void getDoctorData(int id);
 }
